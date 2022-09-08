@@ -1,0 +1,12 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class Elementos {
+
+		
+		public By menuElements= By.xpath("//h5[text()='Elements']");
+		
+public By userName = By.xpath("//*[@id='userName']");
+}
+

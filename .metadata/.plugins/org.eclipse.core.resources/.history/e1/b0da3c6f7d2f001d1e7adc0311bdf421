@@ -1,0 +1,12 @@
+package metodos;
+
+public class Metodos extends DriversFactory {
+
+	
+	public void clicar() {
+		
+		
+	}
+	
+	
+}

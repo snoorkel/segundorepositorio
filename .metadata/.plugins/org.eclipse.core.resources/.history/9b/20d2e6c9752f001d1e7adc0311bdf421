@@ -1,0 +1,25 @@
+package steps;
+
+public class CucumberDemoQa {
+	
+
+		@Given("que esteja no formulario")
+		public void queEstejaNoFormulario() {
+		    
+		}
+
+
+		
+
+		@When("preencher as informacoes")
+		public void preencherAsInformacoes() {
+		    
+		}
+		@Then("formulario enviado")
+		public void formularioEnviado() {
+		    
+		}
+
+
+
+}

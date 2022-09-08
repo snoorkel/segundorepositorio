@@ -1,0 +1,16 @@
+package metodos;
+
+import org.openqa.selenium.By;
+
+import conexoes.DriversFactory;
+
+public class Metodos extends DriversFactory {
+
+	
+	public void clicar(By elemento) {
+	driver.findElement(elemento).click();	
+		
+	}
+	
+	
+}

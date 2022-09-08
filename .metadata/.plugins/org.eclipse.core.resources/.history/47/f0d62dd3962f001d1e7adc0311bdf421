@@ -1,0 +1,38 @@
+package steps;
+
+import elementos.Elementos;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import metodos.Metodos;
+import runner.Executa;
+
+public class CucumberDemoQa {
+	Metodos metodos= new Metodos();
+	Elementos el= new Elementos();
+	
+	@Before
+	public void iniciarTeste() {
+Executa.abrirNavegador();
+	}
+
+	@Given("que esteja no formulario")
+	
+	public void queEstejaNoFormulario() throws InterruptedException {
+    metodos.scroll(0, 350);
+		metodos.clicar(el.menuElements);
+	metodos.clicar("span","Text Box");
+	}
+
+	@When("preencher as informacoes")
+	public void preencherAsInformacoes() {
+
+	}
+
+	@Then("formulario enviado")
+	public void formularioEnviado() {
+
+	}
+
+}

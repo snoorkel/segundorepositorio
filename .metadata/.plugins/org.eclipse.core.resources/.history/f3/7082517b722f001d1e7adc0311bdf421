@@ -1,0 +1,7 @@
+package conexoes;
+
+public class DriversFactory {
+
+	WebDriver driver;
+	
+}
